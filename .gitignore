@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual env
+.venv/
+
+# Secrets
+.env
+.env.*
+
+# RAG artifacts
+chroma/
+indexes/
+embeddings/
+outputs/
+
+# IDE
+.cursor/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
